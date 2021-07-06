@@ -16,7 +16,7 @@ body{
     position:absolute;
     left:90px;
     top:3px;
-    color: rgb(143, 207, 143);
+    color: purple;
     font-size: 20px;
     font-family: 'Festive', cursive;;
   }
@@ -28,7 +28,7 @@ body{
   #nav-bar a {
     display: inline-block;
     margin: -3px;
-    color: rgb(143, 207, 143);
+    color: purple;
     font-weight: 900;
     text-align: center;
     padding: 16px 20px;
@@ -40,9 +40,7 @@ body{
     display: block;
     margin: 0 auto;
     text-align: center;
-    font-family: SansSerif;
-    color: red;
-    font-size: 21px;
+    font-size: 25px;
     padding-bottom: 50px;
     width: 509px;
     height: 200px;
