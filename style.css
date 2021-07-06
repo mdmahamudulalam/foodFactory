@@ -9,9 +9,13 @@ span{
 h1{
     font-size: 55px;
 }
+h2{
+    color: purple;
+}
 
 .topSection{
     display: flex;
+    margin-bottom: 80px;
 }
 .intro{
     width: 40%;
@@ -23,7 +27,7 @@ p{
     color: purple;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .imgContainer{
     width: 40%;
@@ -36,13 +40,81 @@ p{
     height: 30em;
     border-radius: 50%;
 }
+.bottomHeading{
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+    margin-right: 230px;
+    align-items: center;
+}
+.bottomHeading h2{
+    color: orange;
+    font-size: 40px;
+    font-weight: 900;
+}
 .orderLink{
     color: purple;
     font-weight: 900;
     text-decoration: none;
-    border: 2px solid;
-    margin-top: 30px;
-    padding: 10px;
+    border: 2px solid black;
+    padding: 12px;
     border-radius: 25px;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.foodPic{
+    width: 22em;
+    height: 22em;
+    border-radius: 5px;
+
+}
+.contactLink{
+    color: gold;
+    font-weight: 900;
+    text-decoration: none;
+    border: 2px solid purple;
+    padding: 15px;
+    border-radius: 25px;
+    background: linear-gradient(0.25turn,  #009fff, #ec2f4b);
+    
+}
+.midSection{
+    display: flex;
+    background: #833ab4;  
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+
+}
+.midLeft{
+    margin: 40px 5px 40px 40px;
+    width: 50%;
+}
+.midRight{
+    width: 50%;
+    margin: 50px;
+    
+}
+#bestselText{
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.bottomPart{
+    display: flex;
+
+}
+
+.topDish{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 15px;
+    align-items: center;
+    border-left: honeydew;
+    padding: 25px;
+    
+}
+.listDish{
+    text-align: center;
 }
